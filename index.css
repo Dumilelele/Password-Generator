@@ -1,0 +1,115 @@
+body {
+  margin: 75px;
+  background-color: #1f2937;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: 700;
+}
+
+span {
+  color: #10b981;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 45px;
+  color: #d1d5db;
+}
+
+button {
+  margin-bottom: 25px;
+  background: #10b981;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#copy-btn1,
+#copy-btn2 {
+  background: #10b981;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+  transition: 0.3s;
+}
+
+#copy-btn1:hover,
+#copy-btn2:hover {
+  background: #059669;
+}
+
+button:hover {
+  background: #059669;
+}
+
+input {
+  width: 300px;
+  background: #273549;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 5px;
+  margin-left: 8px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #f3f4f6;
+}
+::placeholder {
+  color: #f3f4f6;
+}
+
+#generate1-el {
+  color: #6ee7b7;
+  margin: 0;
+  padding: 0;
+}
+
+#generate2-el {
+  color: #6ee7b7;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.vertical-separator {
+  width: 2px;
+  background: #ffffff;
+  height: 100%; /* Set the height to match the content area */
+  margin: 0 10px;
+}
+
+.container > div {
+  background: #273549;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  margin-right: 25px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+hr.new5 {
+  border: 1px solid #273549;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
